@@ -13,6 +13,11 @@ class Plotter(object):
         '''
         self.expoentes = expoentes
         self.coeficientes = coeficientes
+        self.funcao = 0
+    
+    def escreveFuncao(self, termo):
+        pass
+            
     
     def valor(self, x):
         temp = []
